@@ -1,0 +1,16 @@
+Meta file must be named amrlib_meta.json and reside in the tope level of the model directory.
+
+The following is considered a minimal example of the json file...
+}
+    "model_type":"stog",
+    "version":"0.1.0", 
+    "date":"2020-12-12",
+    "inference_module":".parse_t5.inference", 
+    "inference_class":"Inference",
+    "model_fn":"pytorch_model.bin",
+    "kwargs":{}
+}
+
+At this time only "inference_module" and "inference_class" are required for all models.
+"model_fn" is not required for T5 based models but may be for other model types.
+"kwargs" will be passed directly to the instantiation of the inference class.
