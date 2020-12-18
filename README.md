@@ -28,11 +28,12 @@ python3
 
 | Name | Type | Version | Date | Size | Score | | |
 | ---- | ---- | ------- | ---- | ---- | ----- | --- | --- |
-| Parse T5 | STOG | 0.1.0 | 2020-12-12 | 786M | 81 SMATCH | [![][i]][i-model_parse_t5-v0_1_0] | [![][dl]][model_parse_t5-v0_1_0]
+| Parse T5 | STOG | 0.1.0 | 2020-12-12 | 785M | 81 SMATCH | [![][i]][i-model_parse_t5-v0_1_0] | [![][dl]][model_parse_t5-v0_1_0]
+
+[model_parse_t5-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_parse_t5-v0_1_0/model_parse_t5-v0_1_0.tar.gz                         
 
 [i-model_parse_t5-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/model_parse_t5-v0_1_0
 
-[model_parse_t5-v0_1_0]: https://github.com/bajascob/amrlib-models/releases/download/model_parse_t5-v0_1_0/model_parse_t5-v0_1_0.tar.gz
 
 [dl]: http://i.imgur.com/gQvPgr0.png
 [i]: http://i.imgur.com/OpLOcKn.png

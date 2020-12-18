@@ -1,4 +1,4 @@
-Meta file must be named amrlib_meta.json and reside in the tope level of the model directory.
+Meta file must be named amrlib_meta.json and reside in the top level of the model directory.
 
 The following is considered a minimal example of the json file...
 }
