@@ -29,7 +29,7 @@ python3
 | Name | Type | Version | Date | Size | Score | | |
 | ---- | ---- | ------- | ---- | ---- | ----- | --- | --- |
 | Parse T5 | STOG | 0.1.0 | 2020-12-12 | 785M | 81 SMATCH | [![][i]][i-model_parse_t5-v0_1_0] | [![][dl]][model_parse_t5-v0_1_0]
-| Gen T5wtense | GTOS | 0.1.0 | 2020-12-30 | 788M | 54 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
+| Gen T5wtense | GTOS | 0.1.0 | 2020-12-30 | 787M | 54 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
 
 [model_parse_t5-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_parse_t5-v0_1_0/model_parse_t5-v0_1_0.tar.gz
 [model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_parse_t5-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
