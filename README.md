@@ -32,7 +32,7 @@ python3
 | Gen T5wtense | GTOS | 0.1.0 | 2020-12-30 | 787M | 54 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
 
 [model_parse_t5-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_parse_t5-v0_1_0/model_parse_t5-v0_1_0.tar.gz
-[model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_parse_t5-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
+[model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_generate_t5wtense-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
 
 [i-model_parse_t5-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/model_parse_t5-v0_1_0
 [i-model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/model_generate_t5wtense-v0_1_0
