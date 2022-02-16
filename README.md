@@ -40,6 +40,14 @@ However, when using BLINK, scores typically stay approximately the same since th
 low to mid 80s on smatch.  Speed is the inference speed on the AMR-3 test using an RTX3090 and a bach size of 32.
 The units are sentences/second.
 
+#### Attribution:
+* The parse_spring code is from the [SPRING model](https://github.com/SapienzaNLP/spring). Note that the author's license for their code is "Attribution-NonCommercial-ShareAlike 4.0 International". Details on the model can be found in this [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17489).
+
+* The parse_gsii model comes from [jcyk/AMR-gs](https://github.com/jcyk/AMR-gs), the details of which can be found in this
+[paper](https://arxiv.org/abs/2004.05572).
+
+* All other models were developed as part of [amrlib](https://github.com/bjascob/amrlib).
+
 [d-parse_xfm_bart_large]: https://github.com/bjascob/amrlib-models/releases/download/parse_xfm_bart_large-v0_1_0/model_parse_xfm_bart_large-v0_1_0.tar.gz
 [d-parse_xfm_bart_base]: https://github.com/bjascob/amrlib-models/releases/download/parse_xfm_bart_base-v0_1_0/model_parse_xfm_bart_base-v0_1_0.tar.gz
 [d-parse_spring]: https://github.com/bjascob/amrlib-models/releases/download/model_parse_spring-v0_1_0/model_parse_spring-v0_1_0.tar.gz
@@ -56,7 +64,9 @@ The units are sentences/second.
 
 | Name | Version | Date | Size | Score | | |
 | ---- | ------- | ---- | ---- | ----- | --- | --- |
-| generate_t5wtense | 0.1.0 | 2020-12-30 | 787MB | 54 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
+| generate_t5wtense | 0.1.0 | 2020-12-30 | 787MB | 54/44 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
+
+The generate_t5wtense gives a **54 BLEU** with tense tags or **44 BLEU** with un-tagged LDC2020T02.
 
 [model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_generate_t5wtense-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
 
