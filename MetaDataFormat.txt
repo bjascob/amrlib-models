@@ -3,11 +3,12 @@ Meta file must be named amrlib_meta.json and reside in the top level of the mode
 The following is considered a minimal example of the json file...
 }
     "model_type":"stog",
-    "version":"0.1.0", 
-    "date":"2020-12-12",
-    "inference_module":".parse_t5.inference", 
+    "version":"0.1.0",
+    "date":"2022-02-16",
+    "inference_module":".parse_xfm.inference",
     "inference_class":"Inference",
     "model_fn":"pytorch_model.bin",
+    "base_model":"facebook/bart-large",
     "kwargs":{}
 }
 
