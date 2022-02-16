@@ -56,7 +56,7 @@ The units are sentences/second.
 
 | Name | Version | Date | Size | Score | | |
 | ---- | ------- | ---- | ---- | ----- | --- | --- |
-| Gen T5wtense | 0.1.0 | 2020-12-30 | 787MB | 54 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
+| generate_t5wtense | 0.1.0 | 2020-12-30 | 787MB | 54 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
 
 [model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_generate_t5wtense-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
 
