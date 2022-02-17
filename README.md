@@ -67,6 +67,7 @@ The units are sentences/second.
 | generate_t5wtense | 0.1.0 | 2020-12-30 | 787MB | 54/44 BLEU | [![][i]][i-model_generate_t5wtense-v0_1_0] | [![][dl]][model_generate_t5wtense-v0_1_0]
 
 The generate_t5wtense gives a **54 BLEU** with tense tags or **44 BLEU** with un-tagged LDC2020T02.
+Details on using this type of model for generation can be found in this [paper](https://arxiv.org/abs/2007.08426).
 
 [model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_generate_t5wtense-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
 
