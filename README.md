@@ -34,11 +34,12 @@ python3
 | parse_t5 | 0.2.0 | 2020-11-27 | 785MB | 81.9 SMATCH | 11/sec| [![][i]][i-parse_t5] | [![][dl]][d-parse_t5]
 | parse_gsii | 0.1.0 | 2020-08-30 | 787MB | 76.8 SMATCH | 28/sec| | [![][dl]][d-parse_gsii]
 
-All models are trained and scored on AMR-3 (LDC2020T02). This is a more difficult test set than the older
-AMR-2 set and generally scores a bit lower for similar models.  All scores are without adding the :wiki tags.
-However, when using BLINK, scores typically stay approximately the same since the wikification process itself scores in the
-low to mid 80s on smatch.  Speed is the inference speed on the AMR-3 test using an RTX3090 and a bach size of 32.
-The units are sentences/second.
+All models are trained and scored on AMR-3 (LDC2020T02) using `num_beams=4` for `parse_xfm_x` and `num_beams=5` for `parse_spring`.
+Note that AMR-3 is a more difficult test set than the older AMR-2 set and generally scores a bit lower for similar models. All scores are 
+without adding the :wiki tags. However, when using BLINK, scores typically stay approximately the same since the wikification process itself 
+scores in the low to mid 80s on smatch.  
+
+Speed is the inference speed on the AMR-3 test set (1898 graphs) using an RTX3090 with `num_beams=1` and `batch_size=32`. The units are sentences/second. 
 
 #### Attribution:
 * The parse_spring code is from the [SPRING model](https://github.com/SapienzaNLP/spring). Note that the author's license for their code is "Attribution-NonCommercial-ShareAlike 4.0 International". Details on the model can be found in this [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17489).
