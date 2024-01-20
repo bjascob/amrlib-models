@@ -35,11 +35,11 @@ python3
 | parse_gsii | 0.1.0 | 2020-08-30 | 787MB | 76.8 SMATCH | 28/sec| | [![][dl]][d-parse_gsii]
 
 All models are trained and scored on AMR-3 (LDC2020T02) using `num_beams=4` for `parse_xfm_x` and `num_beams=5` for `parse_spring`.
-Note that AMR-3 is a more difficult test set than the older AMR-2 set and generally scores a bit lower for similar models. All scores are 
-without adding the :wiki tags. However, when using BLINK, scores typically stay approximately the same since the wikification process itself 
-scores in the low to mid 80s on smatch.  
+Note that AMR-3 is a more difficult test set than the older AMR-2 set and generally scores a bit lower for similar models. All scores are
+without adding the :wiki tags. However, when using BLINK, scores typically stay approximately the same since the wikification process itself
+scores in the low to mid 80s on smatch.
 
-Speed is the inference speed on the AMR-3 test set (1898 graphs) using an RTX3090 with `num_beams=1` and `batch_size=32`. The units are sentences/second. 
+Speed is the inference speed on the AMR-3 test set (1898 graphs) using an RTX3090 with `num_beams=1` and `batch_size=32`. The units are sentences/second.
 
 #### Attribution:
 * The parse_spring code is from the [SPRING model](https://github.com/SapienzaNLP/spring). Note that the author's license for their code is "Attribution-NonCommercial-ShareAlike 4.0 International". Details on the model can be found in this [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17489).
@@ -73,7 +73,8 @@ graphs, scores will be more like 52/43 BLEU.
 Details on using this type of model for generation can be found in this [paper](https://arxiv.org/abs/2007.08426).
 
 Additionally, there is a training config file for a T5-large based model in the [amrlib/config directory here](https://github.com/bjascob/amrlib/blob/master/configs/model_generate_xfm_t5_large_wTT.json). This model scores about 2 BLEU points higher than generate_t5wtense-v0_1_0
-if you take the time to train it yourself.
+if you take the time to train it yourself. The training configuration has not been full optimized so you may be able to increase
+this if you try different hyperparameters or possibly a different version of the base pretrained T5 model.
 
 [model_generate_t5wtense-v0_1_0]: https://github.com/bjascob/amrlib-models/releases/download/model_generate_t5wtense-v0_1_0/model_generate_t5wtense-v0_1_0.tar.gz
 
